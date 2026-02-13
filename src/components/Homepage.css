@@ -1,0 +1,132 @@
+.homepagemain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff1f6;
+}
+.context-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.env-cont{
+    background: blanchedalmond;
+    text-align: center;
+    font-size: 18px;
+    width: 90%;
+}
+.journey-text{
+    width: 80%;
+    text-align: center;
+    color: #921c5c;
+    font-family: cursive;
+    font-size: 14px;
+    display: inline-block;
+    margin: 4px 0px;
+    font-weight: 600;
+}
+.env-text {
+    overflow: hidden;
+    animation: typing 2s steps(50, end) forwards;
+    display: inline-block;
+    margin: 4px 0px;
+}
+
+.env-body {
+    overflow: hidden;
+    margin: 10px 0;
+    white-space: normal;
+}
+@keyframes typing {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes blink {
+    0%, 49% {
+        border-right-color: rgba(0, 0, 0, 0.7);
+    }
+    50%, 100% {
+        border-right-color: transparent;
+    }
+}
+
+
+
+.envimg{
+    /* position: relative;
+    top: 12%; */
+    height: 280px;
+    animation: jump 1.5s ease-in-out infinite;
+}
+.topimgcont{
+    display: flex;
+    align-items: end;
+}
+.topimgcont img{
+    height: 36px;
+    width: 36px;
+    margin: 0px 6px;
+}
+.topimgcont hr{
+    height: 1.5px;
+    width: 40px;
+    background: #c26680;
+    border: none;
+}
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.text-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-family: cursive;
+    animation: jump 1.5s ease-in-out infinite;
+}
+.text-cont img{
+    height: 30px;
+}
+.text-cont p{
+    margin: 0px;
+}
+.journeyBtn{
+    border: none;
+    background: pink;
+    color: white;
+    padding: 4px 8px;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 8px;
+    animation: scaleUp 2.5s ease-in-out infinite;
+    cursor: pointer;
+}
+.topimgcont.bottom{
+    position: fixed;
+    bottom: 10%;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
