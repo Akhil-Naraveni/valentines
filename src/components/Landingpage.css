@@ -32,6 +32,7 @@
     font-family: cursive;
     text-align: center;
     width: 60%;
+    font-size: 20px;
 }
 .love-text{
     margin: 0px;
@@ -42,11 +43,11 @@
     animation: whiteGlowPulse 3s ease-in-out infinite;
 }
 .love-quote{
-    width: 80%;
+    width: 86%;
     text-align: center;
     color: #921c5c;
     font-family: cursive;
-    font-size: 14px;
+    font-size: 18px;
 }
 .center-heart-icon{
     background-color: white;
