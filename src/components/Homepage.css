@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 .env-cont{
     background: blanchedalmond;
@@ -34,7 +35,9 @@
     display: inline-block;
     margin: 4px 0px;
 }
-
+.imgcontainer{
+    margin-top: 40px;
+}
 .env-body {
     overflow: hidden;
     margin: 10px 0;
@@ -108,7 +111,7 @@
     border: none;
     background: pink;
     color: white;
-    padding: 4px 8px;
+    padding: 16px 52px;
     font-size: 16px;
     font-family: cursive;
     border-radius: 8px;
@@ -117,7 +120,7 @@
 }
 .topimgcont.bottom{
     position: fixed;
-    bottom: 10%;
+    bottom: 4%;
 }
 @keyframes scaleUp {
   0% {

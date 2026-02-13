@@ -29,7 +29,7 @@ const triggerConfetti = () => {
       confetti.style.zIndex = '999'
       document.body.appendChild(confetti)
 
-      const duration = Math.random() * 3000 + 2000
+      const duration = Math.random() * 4000 + 4000
       const startTime = Date.now()
       const xOffset = (Math.random() - 0.5) * 300
 

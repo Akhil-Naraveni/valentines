@@ -64,6 +64,9 @@
 }
 .bottomcont h1{
     margin: 0px 20px;
+    font-family: cursive;
+    color: #ff768e;
+    font-weight: bold;
 }
 .bottomcont hr{
      height: 1.5px;
