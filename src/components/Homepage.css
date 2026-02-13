@@ -43,6 +43,11 @@
     margin: 10px 0;
     white-space: normal;
 }
+.homepageheading{
+    color: #ff768e;
+    font-family: cursive;
+    font-weight: 700;
+}
 @keyframes typing {
     from {
         clip-path: inset(0 100% 0 0);

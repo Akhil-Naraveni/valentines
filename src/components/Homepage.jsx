@@ -103,7 +103,7 @@ const Homepage = ()=>{
 
     return(
         <div className="homepagemain">
-            <h2>Our Journey</h2>
+            <h2 className="homepageheading">Our Journey</h2>
            
             <div className="context-body">
                 
